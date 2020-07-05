@@ -2,7 +2,11 @@
 
 GET REQUESTS
 http://localhost:8080/get-pondList/1
+
+
 http://localhost:8080/get-blockList/1
+
+
 http://localhost:8080/login?mobileNumber=1234567890&password=1234abcd
 
 POST REQUESTS
@@ -23,6 +27,8 @@ http://localhost:8080/add-farmer
     "corporate": false
 }
 
+
+
 http://localhost:8080/save-pondlist
 [
     {
@@ -39,6 +45,8 @@ http://localhost:8080/save-pondlist
     "farmerId":1
     }
 ]
+
+
 
 http://localhost:8080/save-blockList
 
